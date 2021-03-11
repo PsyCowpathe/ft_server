@@ -1,0 +1,6 @@
+Use "docker build -t nginx ." for building the image
+
+Use "docker run --privileged -p 80:80 -p 443:443 -ti nginx" for starting the container
+
+User for the db is mysqluser
+No password is required
